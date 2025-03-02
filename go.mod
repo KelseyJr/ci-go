@@ -1,3 +1,3 @@
-module github.com/KelseyJr/fc_ci
+module ci_go
 
 go 1.24.0
