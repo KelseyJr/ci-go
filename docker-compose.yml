@@ -1,7 +1,8 @@
 services:
   golang:
     container_name: ci_app
-    build: .
+    build: 
+      dockerfile: Dockerfile.dev
     volumes:
       - .:/app
     stdin_open: true
